@@ -1,0 +1,20 @@
+Source: NA
+github: NA
+
+Pre-requisite:
+- using Gemini GenAI API Key
+- Create: .env file and copy the API key
+- Create env: python -m venv venv
+- Activate env: venv\Scripts\activate
+- Install dependencies: pip install -r requirements.txt
+
+To Run: 
+- streamlit run app.py
+
+To Git:
+- open Git Bash terminal: git init | Untracked status appear (green U)
+- create .gitignore > enter .env filename > save
+- to track all: git add .
+- to restore: git restore <filename>
+- to commit: git commit -m "<message>" or manual message: git commit -a
+- Note: do not add venv folder
